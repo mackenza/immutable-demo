@@ -4,6 +4,7 @@
   "description": "sample code for Ottawa Javascript meetup",
   "main": "index.js",
   "dependencies": {
+    "coffee-script": "^1.9.3",
     "immutable": "^3.7.3",
     "nesh": "^1.6.0"
   },
