@@ -5,7 +5,7 @@ var blogPost = Immutable.Map({
     author: "Andrew MacKenzie",
     published: true,
     publishDate: "2015-05-15",
-    contents: "The quick brown fox jumps over the lazy dog."
+    contents: "The quick brown fox jumps over the lazy dog. "
 });
 
 var stack       = [blogPost],
@@ -13,9 +13,10 @@ var stack       = [blogPost],
 
 var blogHandler = {
     add: function (theBlogPost, newContent) {
-        newBlogPost = blogPost.set('contents', stack[stackIndex].get('contents') + " " + newContent);
+        newBlogPost = blogPost.set('contents', stack[stackIndex].get('contents') + newContent);
         stack.push(newBlogPost);
         stackIndex++;
+        this.render();
     },
     render: function() {
         console.log(stack[stackIndex]);
