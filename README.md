@@ -10,3 +10,10 @@ This repo is a set of examples and demos for use in my talk about Immutable Java
 
 The code was intended to be run in a console via NodeJS. I suppose it can easily be adapted to run in a browser, but I have not done anything to make that work.
 It's up to you.
+
+### Presentation
+The rather brief slide deck that accompanied the session can be found at: [http://slides.com/andrewmackenzie/deck](http://slides.com/andrewmackenzie/deck)
+
+### Your Mileage May Vary
+I do not claim that these materials are the best way to explain Immutable JS collections or are free from error.
+My goal was simply to shed some light on this interesting topic for the benefit of my local Javascript Meetup group.
