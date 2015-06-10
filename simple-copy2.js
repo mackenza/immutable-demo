@@ -2,7 +2,7 @@ var a1 = ["AA", "BB", "CC"];
 // trying to copy a1 into a2 to hopefully preserve a1's current value
 var a2 = a1;
 console.log(a1, a2, a1 === a2);
-console.log("as expected, a1 and a2 are equual");
+console.log("as expected, a1 and a2 are equal");
 
 // going to change a2 by adding a value to the array
 a2.push("DD");
