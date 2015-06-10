@@ -4,7 +4,6 @@
   "description": "sample code for Ottawa Javascript meetup",
   "dependencies": {
     "immutable": "^3.7.3",
-    "read": "^1.0.6",
     "seamless-immutable": "^2.4.0"
   },
   "repository": {

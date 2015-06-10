@@ -1,18 +1,17 @@
-var Immutable   = require("immutable"),
-    read        = require("read");
+var Immutable   = require("immutable");
 
 var blogPost = Immutable.Map({
     author: "Andrew MacKenzie",
     published: true,
     publishDate: "2015-05-15",
-    contents: "The quick brown fox jumps over the lazy dog. "
+    contents: "The original blog post text. "
 });
 
 var stack       = [blogPost],
     stackIndex  = 0;
 
-var blogHandler = {
-    add: function (theBlogPost, newContent) {
+var blog = {
+    add: function (newContent) {
         newBlogPost = blogPost.set('contents', stack[stackIndex].get('contents') + newContent);
         stack.push(newBlogPost);
         stackIndex++;
@@ -40,4 +39,3 @@ var blogHandler = {
         this.render();
     }
 };
-
