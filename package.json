@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "sample code for Ottawa Javascript meetup",
   "dependencies": {
-    "immutable": "^3.7.3",
-    "seamless-immutable": "^2.4.0"
+    "immutable": "*",
+    "seamless-immutable": "*"
   },
   "repository": {
     "type": "git",
